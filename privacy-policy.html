@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="How the CastTV Android app handles your data.">
+<title>CastTV Privacy Policy</title>
+<style>
+:root {
+  --brand: #6d28d9;
+  --brand-soft: #ede4ff;
+  --text: #1a1426;
+  --muted: #4e4561;
+  --bg: #faf7ff;
+  --card: #ffffff;
+  --line: #e9e3f3;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --brand: #c4a6ff;
+    --brand-soft: #322a45;
+    --text: #eae4f5;
+    --muted: #b9afcc;
+    --bg: #0f0a1a;
+    --card: #1a1428;
+    --line: #322a45;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+header, nav, main, footer { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 28px; }
+.brand { font-size: 28px; font-weight: 800; letter-spacing: -0.3px; text-decoration: none; color: var(--text); }
+.brand span { color: var(--brand); }
+nav {
+  margin-top: 20px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 16px 20px;
+}
+nav h2 { margin: 0 0 8px; font-size: 17px; }
+nav ol { margin: 0; padding-left: 22px; }
+nav li { margin: 2px 0; }
+main { padding-bottom: 8px; }
+h1 { font-size: 30px; line-height: 1.25; margin: 28px 0 8px; }
+h2 { font-size: 21px; margin: 32px 0 8px; padding-top: 4px; }
+h3 { font-size: 18px; margin: 20px 0 4px; }
+a { color: var(--brand); }
+.updated { color: var(--muted); }
+footer { color: var(--muted); font-size: 15px; border-top: 1px solid var(--line); margin-top: 32px; padding-top: 16px; padding-bottom: 32px; }
+</style>
+</head>
+<body>
+<!--
+  Also shown inside the app (Settings > Privacy policy): the app reads only the <main> element,
+  with simple tags (h1-h3, p, ul/li, b, a, br). Keep the table of contents and styles outside it.
+  DECISIONS D-086. No scripts, no external fonts, no cookies on this page.
+-->
+<header><a class="brand" href="index.html">Cast<span>TV</span></a></header>
+
+<nav aria-label="Contents">
+<h2>Contents</h2>
+<ol>
+<li><a href="#who">Who we are</a></li>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#app">What CastTV does on your phone and Wi-Fi</a></li>
+<li><a href="#stored">What CastTV keeps on your phone</a></li>
+<li><a href="#permissions">Permissions</a></li>
+<li><a href="#services">Third-party services</a></li>
+<li><a href="#consent">Consent and your choices</a></li>
+<li><a href="#limit">Free casting limit</a></li>
+<li><a href="#support">Contacting support</a></li>
+<li><a href="#retention">How long data is kept</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#transfers">International transfers</a></li>
+<li><a href="#gdpr">Your rights in the EEA, the UK and Switzerland</a></li>
+<li><a href="#us">Your rights in the United States</a></li>
+<li><a href="#requests">How to ask a question or request deletion</a></li>
+<li><a href="#children">Children</a></li>
+<li><a href="#changes">Changes to this policy</a></li>
+</ol>
+</nav>
+
+<main>
+<h1>CastTV Privacy Policy</h1>
+<p class="updated"><b>Last updated and effective:</b> November 10, 2026<br>
+<b>App:</b> CastTV for Android (package com.marouane.tvcast)</p>
+
+<h2 id="who">1. Who we are</h2>
+<p>CastTV is developed by <b>Marouane Studio</b>, Morocco ("we", "us"). We are responsible for the personal data processed through the app as described in this policy. For any question about this policy or your data, write to <a href="mailto:tvcastsupport@gmail.com">tvcastsupport@gmail.com</a>.</p>
+
+<h2 id="summary">2. Summary</h2>
+<ul>
+<li>CastTV has no account, no sign-in and no profile. It does not ask for your name, email, location or contacts.</li>
+<li>CastTV only talks to TVs on your own Wi-Fi network, and only plays what you choose. Your videos, links, file names and TV names are never uploaded to our servers, and we have no servers that receive them.</li>
+<li>CastTV does use services from Google and RevenueCat that collect some data: diagnostics for casting, usage statistics and crash reports (you can turn these off), remote settings, ads in the free version, and purchase information for the Premium subscription. Section 6 lists each one.</li>
+<li>In the EEA, the UK and Switzerland, ads are only personalized with your consent, and usage statistics and crash reports are off unless you turn them on.</li>
+<li>We do not sell your personal data.</li>
+</ul>
+
+<h2 id="app">3. What CastTV does on your phone and Wi-Fi</h2>
+<p><b>Finding TVs.</b> CastTV looks for compatible TVs on the Wi-Fi network your phone is connected to (Google Cast and DLNA/UPnP). It reads the names and models that the TVs announce on that network, to list them. This information stays on your phone. CastTV never reads the name of your Wi-Fi network.</p>
+<p><b>Casting a link.</b> When you cast a video link, the link is sent to the TV you chose, and the TV loads the video directly from that address.</p>
+<p><b>Casting a video from your phone.</b> CastTV starts a small media server on your phone. It shares only the video you picked (and its subtitles, if you added some), only on your Wi-Fi network, only with the TV you chose, and only while it plays. Each video gets a new secret address that stops working when you stop casting. A notification shows while a video is shared. Your videos are never uploaded to us or to anyone else.</p>
+<p><b>Subtitles.</b> Subtitle files you add are read and converted on your phone, then shared with the TV in the same way as the video.</p>
+<p><b>Files.</b> CastTV opens only the files you choose in the Android photo or file picker. It does not ask for access to all your photos, videos or files.</p>
+
+<h2 id="stored">4. What CastTV keeps on your phone</h2>
+<ul>
+<li>Your settings: theme, app language, whether you closed the welcome card and the Cast button introduction, your privacy choices, and whether consent rules apply in your region.</li>
+<li>Recent devices: the name and type (for example "DLNA") of up to 10 TVs you connected to. No address or identifier is saved. You can remove them in Settings &gt; Recent devices.</li>
+<li>Whether Premium is active and until when, so Premium also works without internet, and whether CastTV was opened before.</li>
+</ul>
+<p>This data stays on your phone and is not sent to us. It is not included in Android backups. It is deleted when you uninstall CastTV or clear its storage.</p>
+
+<h2 id="permissions">5. Permissions</h2>
+<ul>
+<li><b>Internet and network state:</b> to find TVs and talk to them on your Wi-Fi, and for the services in section 6.</li>
+<li><b>Wi-Fi multicast:</b> to find DLNA TVs while the Devices screen is open.</li>
+<li><b>Foreground service, wake lock and notifications:</b> to keep sharing a video from your phone while the screen is off, with a visible notification.</li>
+<li><b>Advertising ID and Android ad services (ad ID, attribution, topics):</b> used by the Google Mobile Ads SDK in the free version (section 6.5).</li>
+<li><b>Google Play billing:</b> to buy the Premium subscription through Google Play.</li>
+<li><b>Install referrer:</b> lets Google Play tell Firebase Analytics which store page or campaign led to the install, only when usage statistics are on.</li>
+</ul>
+<p>CastTV does not use location, contacts, camera, microphone, call log or storage permissions.</p>
+
+<h2 id="services">6. Third-party services</h2>
+<p>These services process data as described below. Google LLC and Google Ireland Limited provide sections 6.1 to 6.7; RevenueCat, Inc. provides section 6.8.</p>
+
+<h3>6.1 Google Cast SDK (Google Play services)</h3>
+<p><b>What:</b> usage and diagnostic information about casting (for example connection and session events) and device information that Google Play services needs to find and connect to Chromecast, Google TV and TVs with Chromecast built-in. <b>Why:</b> to make casting to these TVs work and to improve it. <b>Policy:</b> <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h3>6.2 Firebase Analytics (usage statistics)</h3>
+<p><b>What:</b> only when "Share usage statistics" is on: events such as the app was opened, a search for TVs started, a TV was found (its type only, for example "DLNA"), a connection was tried, succeeded or failed (the kind of error only), a video started or failed (only "link" or "video from this phone" and the TV type), the help and assistant screens were opened, an ad was shown, the Premium screen was opened, a purchase was started, completed or cancelled (the plan only) and purchases were restored. Firebase adds an app instance identifier, device model, Android version, app version and the country (from the IP address). We never send your videos, links, file names, TV names or addresses. Analytics does not collect your advertising ID and is not used for advertising. <b>Why:</b> to understand which features work and improve CastTV. <b>Policy:</b> <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a>.</p>
+
+<h3>6.3 Firebase Crashlytics (crash reports)</h3>
+<p><b>What:</b> only when "Share crash reports" is on: when the app crashes or a serious technical error happens, a technical report with where in the code it happened, the kind of error, device model, Android version, free memory and disk space, and a Crashlytics installation identifier. No content of yours. Turning the switch off stops sending and deletes reports still waiting on your phone. <b>Why:</b> to find and fix bugs. <b>Policy:</b> <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a>.</p>
+
+<h3>6.4 Firebase Remote Config (remote settings)</h3>
+<p><b>What:</b> a Firebase installation identifier and the app version, to download a few settings such as the free minutes per video and how often ads may appear. <b>Why:</b> to adjust these settings without an app update; it is needed for the app to work as described. If it cannot be reached, built-in values are used. <b>Policy:</b> <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a>.</p>
+
+<h3>6.5 Google AdMob (ads in the free version)</h3>
+<p><b>What:</b> the Google Mobile Ads SDK collects your device's advertising ID and app set ID, your IP address (used to estimate your general location), and information about the ads you see and tap, app interactions and app performance. <b>Why:</b> to show ads, measure them and prevent fraud. Ads are <b>personalized</b> only where the law allows it and, in the EEA, the UK and Switzerland, only with your consent; otherwise Google shows <b>non-personalized</b> or limited ads. Ad content is limited to the PG rating. Where ads appear: a banner on the Home and Devices screens, sometimes a full-screen ad after a cast ends or after you disconnect (never during a video and never when the app opens), and short ads you choose to watch to keep casting or to add subtitles. Premium has no ads. <b>Policy:</b> <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h3>6.6 Google User Messaging Platform (consent)</h3>
+<p><b>What:</b> your consent choices and whether privacy rules apply in your region, stored on your phone, and the information Google needs to show the right consent or privacy message. <b>Why:</b> to ask for and remember your consent for ads, as the law requires. It is certified under the IAB Transparency and Consent Framework. <b>Policy:</b> <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h3>6.7 Google Play Billing</h3>
+<p><b>What:</b> when you buy or restore Premium, Google Play processes the purchase with your Google account: the plan, price, currency, dates and the payment. Google Play handles the payment: CastTV never sees your card or billing details. <b>Why:</b> to sell, renew and cancel the subscription. <b>Policy:</b> <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments Privacy Notice</a>.</p>
+
+<h3>6.8 RevenueCat (subscription status)</h3>
+<p><b>What:</b> the purchase information Google Play gives the app (the plan, its dates and price, the currency and the purchase token), linked to a random identifier created on your phone (no name, no email, no account), plus the app version and basic device information (such as Android version and device locale). CastTV does not send RevenueCat your advertising ID or any device identifier for advertising attribution. <b>Why:</b> to check whether your subscription is active, unlock Premium and restore it on a new phone. RevenueCat is our service provider. <b>Policy:</b> <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a>.</p>
+
+<h2 id="consent">7. Consent and your choices</h2>
+<p><b>Ads in the EEA, the UK and Switzerland.</b> Before any ad is requested, CastTV shows Google's consent form. If you do not consent, only non-personalized or limited ads are shown. In US states with privacy laws, Google's privacy message lets you opt out of the sale or sharing of your data for advertising.</p>
+<p><b>Changing your ad choice.</b> Open <b>Settings &gt; Privacy &gt; Ad privacy options</b> (shown where the law requires it) to see the form again and change your choice. You can also reset or delete your advertising ID in your phone's settings (Settings &gt; Google &gt; Ads, or Settings &gt; Privacy &gt; Ads, depending on your phone).</p>
+<p><b>Usage statistics and crash reports.</b> <b>Settings &gt; Privacy</b> has two switches, "Share usage statistics" and "Share crash reports". In the EEA, the UK and Switzerland both are off until you turn them on. Elsewhere they are on by default and you can turn them off at any time. Changes apply at once.</p>
+<p><b>Premium.</b> Buying Premium is optional. Premium removes ads.</p>
+
+<h2 id="limit">8. Free casting limit</h2>
+<p>In the free version, each video can be cast for a limited time (15 minutes of playing time unless the app shows another value before casting). Then the video pauses and you can watch a short ad to continue, get Premium, or stop. To count this time, CastTV keeps, in memory only and only while the app runs, a one-way code calculated from the video's address. It is never stored, sent or used for anything else.</p>
+
+<h2 id="support">9. Contacting support</h2>
+<p>If you choose "Contact support" in the app, CastTV opens your own email app with a message that contains the app version, the Android version and your phone model. You see the whole message before sending and decide whether to send it. We use your email only to answer you.</p>
+
+<h2 id="retention">10. How long data is kept</h2>
+<ul>
+<li><b>On your phone:</b> until you remove it in the app, clear the app's storage or uninstall CastTV.</li>
+<li><b>Usage statistics (Firebase Analytics):</b> event data is kept for 2 months, then deleted automatically.</li>
+<li><b>Crash reports (Firebase Crashlytics):</b> 90 days.</li>
+<li><b>Remote settings (Firebase Remote Config):</b> the installation identifier is kept while the app is in use and deleted within about 180 days after it stops being used.</li>
+<li><b>Ads and consent (Google):</b> as described in Google's policies linked above.</li>
+<li><b>Subscription (RevenueCat and Google Play):</b> while your subscription is active and afterwards as long as needed for accounting, tax and legal obligations.</li>
+<li><b>Support emails:</b> up to 12 months after the conversation ends, unless the law requires longer.</li>
+</ul>
+
+<h2 id="security">11. Security</h2>
+<p>The services in section 6 send data over encrypted connections (HTTPS). Videos shared from your phone stay on your Wi-Fi: the media server only answers the TV you chose, on your local network, with a secret address that changes for every video. App data is not included in Android backups. No method of transmission or storage is completely secure, but we work to protect your data.</p>
+
+<h2 id="transfers">12. International transfers</h2>
+<p>We are based in Morocco. Google and RevenueCat may process data in the United States and other countries. When data from the EEA, the UK or Switzerland is transferred, these companies use the safeguards the law allows, such as the European Commission's Standard Contractual Clauses or the EU-U.S. Data Privacy Framework where they are certified. We also respect Moroccan Law No. 09-08 on the protection of personal data.</p>
+
+<h2 id="gdpr">13. Your rights in the EEA, the UK and Switzerland</h2>
+<p><b>Legal bases:</b> usage statistics, crash reports and personalized ads: your consent (Article 6(1)(a) GDPR); remote settings, casting diagnostics and the Premium subscription: performing our contract with you and our legitimate interest in a working app (Article 6(1)(b) and (f)); non-personalized ads and fraud prevention: our legitimate interest in funding the free version (Article 6(1)(f)); support emails: our legitimate interest in answering you.</p>
+<p><b>Your rights:</b> you can ask to access, correct or delete your data, to restrict or object to its processing (including processing based on legitimate interest), and to receive it in a portable format. You can withdraw your consent at any time in Settings &gt; Privacy, without affecting what was done before. You can also complain to your data protection authority (in the UK, the Information Commissioner's Office). See section 15 for how to make a request.</p>
+
+<h2 id="us">14. Your rights in the United States</h2>
+<p>We do not sell your personal information for money. The free version shows ads from Google AdMob, which some state laws (such as California's CCPA/CPRA) may treat as "selling" or "sharing" personal information for targeted advertising. You can opt out of personalized ads with Google's privacy message where it is shown, in <b>Settings &gt; Privacy &gt; Ad privacy options</b>, or by deleting your advertising ID in your phone's settings. Depending on your state, you can also ask to know, access, correct or delete the personal information we hold about you. We will not treat you differently for using these rights. See section 15 for how to make a request.</p>
+
+<h2 id="requests">15. How to ask a question or request deletion</h2>
+<p>Write to <a href="mailto:tvcastsupport@gmail.com">tvcastsupport@gmail.com</a>. Because CastTV has no account, it helps if you tell us what to look for: for a subscription, the Google Play order number (it starts with "GPA." and is in your Google Play receipt email). We answer within one month (45 days for US state requests) and may ask for information to confirm the request is yours. You manage or cancel the subscription itself in Google Play (Payments &amp; subscriptions). You can delete all data kept on your phone at any time by clearing CastTV's storage or uninstalling it.</p>
+
+<h2 id="children">16. Children</h2>
+<p>CastTV is intended for adults (18 and over). It is not directed at children under 13 (under 16 in the EEA), and we do not knowingly collect their personal data. If you believe a child has given us personal data, write to us and we will delete it.</p>
+
+<h2 id="changes">17. Changes to this policy</h2>
+<p>When this policy changes, the new version is published at this address and in the app, with a new "Last updated" date. Important changes are announced in the app before they apply.</p>
+</main>
+
+<footer>© 2026 Marouane Studio · <a href="index.html">CastTV</a> · <a href="terms.html">Terms of Use</a> · <a href="mailto:tvcastsupport@gmail.com">tvcastsupport@gmail.com</a></footer>
+</body>
+</html>
